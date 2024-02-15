@@ -33,7 +33,7 @@
     </section>
 </body>
 <footer>
-    <p>Todos los derechos reservados</p>
+    <p>Todos los derechos reservados.</p>
     <section class="socialMedia">
         <ul>
         <li><a href="https://www.facebook.com" class="fa-brands fa-facebook"><i aria-label="Enlace a facebook"></i></a></li>
