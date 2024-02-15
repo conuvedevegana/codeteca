@@ -6,13 +6,6 @@
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<header>
-    <nav class="headerBar">
-        <img class="logo" alt="logo de Codeteca" href=""></img>
-        <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-        <button id="loginButton">Inicia sesión</button>
-    </nav>
-</header>
 <body>
     <h1>Bienvenida a la Codeteca :D</h1>
 </body>
