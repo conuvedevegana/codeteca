@@ -7,8 +7,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"  href="/resources/css/admin_login.css">
 </head>
+<header>
+    <nav class="headerBar">
+        <img class="logo" alt="logo de Codeteca" href=""></img>
+        <a class="backButton" href="../index.php">Back to home</a>
+    </nav>
+</header>
 <body>
-    
+    <div class= "container">
+        <div>
+            <div>
+                <input type="text" placeholder="Username" required></input>
+                <br/>
+                <input type="password" placeholder="Password" required></input>
+            </div>
+            <button  onclick="validateForm()">Login</button>
+        </div>
+    </div>
 </body>
 <footer>
     <p>Todos los derechos reservados</p>
