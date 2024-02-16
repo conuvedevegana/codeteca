@@ -28,7 +28,7 @@
             <section class="book-description">
                 <label>Descripcion: </label>
                 <textarea name="Description">
-              </textarea>
+                </textarea>
             </section>
         </section>
         <section class="book-description">

@@ -30,7 +30,7 @@
             <section class="book-description">
                 <label>Descripcion: </label>
                 <textarea name="Description">
-              </textarea>
+                </textarea>
             </section>
             <section class="book-cover">
                 <input id="Imagen" type="file" name="book-cover" alt="Imagen"></input>
