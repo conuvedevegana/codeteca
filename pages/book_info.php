@@ -19,7 +19,7 @@
         </nav>
     </header>
     <main>
-        <img src="../resources/img/respondona.jpg" alt="foto del libro">
+        <img src="" alt="portada del libro buscado">
         <article id="description">
             <h2>Titulo libro<h2>
                     <p>Descripción</p>

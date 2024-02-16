@@ -19,7 +19,7 @@
         </nav>
     </header>
     <main>
-    
+    <!-- aquí aparecerá el/los libro/s buscados en la navbar -->
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
