@@ -8,7 +8,7 @@
 </head>
 <header>
     <nav class="headerBar">
-        <img class="logo" alt="logo de Codeteca" href=""></img>
+        <img class="logo" alt="logo de Codeteca" href="../resources/img/codeteca-high-resolution-logo-transparent (3).png"></img>
         <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
         <button id="addBookButton">Añadir libro</button>
         <button id="loginButton">Inicia sesión</button>
