@@ -10,12 +10,12 @@
 
 <body>
     
-    <header>
+<header>
         <nav class="headerBar">
-            <img class="logo" alt="logo de Codeteca" href=""></img>
+            <img class="logo" alt="logo de Codeteca" href="index.php"></img>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="backButton"><a href="#">Volver</a></button>
-            <button id="loginButton"><a href="#">Inicia sesión</a></button>
+            <button id="backButton"><a href="index.php">Volver</a></button>
+            <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
     <main>

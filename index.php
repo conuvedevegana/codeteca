@@ -11,9 +11,9 @@
 <body>
     <header>
         <nav class="headerBar">
-            <img class="logo" alt="logo de Codeteca" href=""></img>
+            <img class="logo" alt="logo de Codeteca" href="index.php"></img>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="loginButton">Inicia sesión</button>
+            <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
 

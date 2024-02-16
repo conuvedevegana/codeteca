@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="headerBar">
-            <img class="logo" alt="logo de Codeteca" href=""></img>
+            <img class="logo" alt="logo de Codeteca" href="index.php"></img>
             <a class="backButton" href="../index.php">Back to home</a>
         </nav>
     </header>
