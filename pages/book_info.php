@@ -8,7 +8,24 @@
 </head>
 <body>
     <h1>Bienvenida a la Codeteca :D</h1>
+    <header>
+    <nav class="headerBar">
+        <img class="logo" alt="logo de Codeteca" href=""></img>
+        <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
+        <button id="backButton"><a href="#">Volver</a></button>
+        <button id="loginButton"><a href="#">Inicia sesión</a></button>
+    </nav>
+</header>
+
+    <main>
+    <img src="../resources/img/respondona.jpg" alt="foto del libro">
+    <article id="description">
+            <h2>Titulo libro<h2>
+            <p>Descripción</p>
+    </article>
+    </main>
 </body>
+
 <footer>
     <p>Todos los derechos reservados</p>
     <section class="socialMedia">
