@@ -1,0 +1,37 @@
+/* Footer styles */
+footer {
+    background-color: red;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .socialMedia ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .socialMedia li {
+    margin: 0 1rem;
+  }
+  
+  .socialMedia a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Social media icons */
+  .fa-facebook::before {
+    content: "\f09a";
+  }
+  
+  .fa-instagram::before {
+    content: "\f16d";
+  }
+  
+  .fa-twitter::before {
+    content: "\f099";
+  }
+  
