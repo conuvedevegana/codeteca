@@ -46,6 +46,7 @@
                 <li><a href="https://www.twitter.com" class="fa-brands fa-twitter"><i aria-label="Enlace a X"></i></a></li>
             </ul>
         </section>
+        <h1>htmlspecialchars_decode</h1>
     </footer>
 </body>
 
