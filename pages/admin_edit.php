@@ -10,41 +10,30 @@
 
 <header>
     <nav class="headerBar">
-        <img class="logo" alt="logo de Codeteca" href=""></img>
+        <img class="logo" alt="logo de Codeteca" href="index.php"></img>
         <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-        <button id="addBookButton"><a href="#">Añadir libro</a></button>
-        <button id="loginButton"><a href="#">Inicia sesión</a></button>
+        <button id="addBookButton" href="pages\admin_add.php">Añadir libro</button>
+        <button id="loginButton" href="pages\admin_login.php">Inicia sesión</button>
     </nav>
 </header>
 
 <body>
     <main class="main">
-        <section class="Edit-book">
-            <h2>Editar libro</h2>
-            <p>Buscar el libro</p>
-            <input id="searchBar" type="text" name="título" placeholder="Escribe el título"></input>
-            <button>Buscar</button>
-        </section>
-
         <section class="book-details">
             <h2>MUJERES QUE CORREN CON LOS LOBOS</h2>
             <div>
                 <button>Ver/Editar Item</button>
                 <button>Deletar Item?</button>
             </div>
+            <section class="book-description">
+                <label>Descripcion: </label>
+                <textarea name="Description">
+              </textarea>
+            </section>
         </section>
         <section class="book-description">
 
-            <p>Dentro de toda mujer alienta una vida secreta, una fuerza poderosa llena de buenos instintos,
-                creatividad y sabiduría. Es la Mujer Salvaje, una especie en peligro de extinción debido a los
-                contantes esfuerzos de la sociedad por "civilizar" a las mujeres y constreñirlas a rígidos papeles
-                que anulan su esencia instintiva.
-                En este libro, Clarissa Pinkola Estes revela ricos mitos interculturales, cuentos de hadas e
-                historias (muchas de ellas relativas a su propia familia) para contribuir a que las mujeres
-                recuperen su fuerza y su salud, atributos visionarios de esta esencia instintiva.
-                Mediante los relatos y los comentarios de la autora, examinamos el amor y comprendemos a la Mujer
-                Salvaje. Estes ha creado una psicología femenina en un sentido más verdadero, el que lleva al
-                conocimiento del alma.</p>
+            <p></p>
         </section>
         <section class="book-cover">
             <img src="" alt="Book cover">
