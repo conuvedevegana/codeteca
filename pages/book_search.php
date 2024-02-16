@@ -19,11 +19,7 @@
         </nav>
     </header>
     <main>
-        <img src="../resources/img/respondona.jpg" alt="foto del libro">
-        <article id="description">
-            <h2>Titulo libro<h2>
-                    <p>Descripción</p>
-        </article>
+    
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
