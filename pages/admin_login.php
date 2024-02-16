@@ -12,8 +12,8 @@
 <body>
     <header>
         <nav class="headerBar">
-            <img class="logo" alt="logo de Codeteca" href="index.php"></img>
-            <a class="backButton" href="../index.php">Back to home</a>
+            <a href="index.php"><img class="logo" src="resources\img\logo.png" alt="logo de Codeteca"></a>
+            <a class="backButton" href="../index.php">Inicio</a>
         </nav>
     </header>
 

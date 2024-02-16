@@ -12,14 +12,14 @@
 <body>
     <header>
         <nav class="headerBar">
-            <a href="index.php"><img class="logo" src="resources\img\Logo.png" alt="logo de Codeteca"></a>
+            <a href="index.php"><img class="logo" src="resources\img\logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
             <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
 
     <main>
-        <img class="banner" alt="" src=""></img>
+        <img class="banner" alt="lomos de libros de diferentes colores en una estantería" src="resources\img\banner.jpg">
         <section class="booksPhotos">
             <ul class=booksTop>
                 <li class="bookPhoto"><a href="pages\book_info.php"><img src="resources\img\100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></a></li>

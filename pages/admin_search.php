@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="headerBar">
-            <img class="logo" alt="logo de Codeteca" href="index.php"></img>
+            <a href="index.php"><img class="logo" src="resources\img\logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
             <button id="addBookButton" href="pages\admin_add.php">Añadir libro</button>
             <button id="loginButton" href="pages\admin_login.php">Inicia sesión</button>
