@@ -7,19 +7,22 @@
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="resources\css\index.css">
+    <link rel="stylesheet" href="resources\css\styles.css">
+    <link rel="stylesheet" href="resources\css\header.css">
+    <link rel="stylesheet" href="resources\css\footer.css">
 </head>
 
 <body>
     <header>
         <nav class="headerBar">
-            <img class="logo" alt="logo de Codeteca" href="index.php"></img>
+            <a href="index.php"><img class="logo" src="resources\img\logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
             <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
 
     <main>
-        <img class="banner" alt="" src=""></img>
+        <img class="banner" alt="lomos de libros de diferentes colores en una estantería" src="resources\img\banner.jpg">
         <section class="booksPhotos">
             <ul class=booksTop>
                 <li class="bookPhoto"><a href="pages\book_info.php"><img src="resources\img\100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></a></li>
