@@ -1,6 +1,10 @@
-<!-- aqui en este archivo haremos la conexion con la base de datos -->
 <?php
+namespace Config;
 
+//aqui en este archivo haremos la conexion con la base de datos
+
+use PDO;
+use PDOException;
 
 class db {
     private $host = "localhost";
@@ -13,9 +17,9 @@ class db {
         try {
             $PDO = new PDO("mysql:host={$this->host}; dbname={$this->dbname}; user={$this->user}; password={$this->password}");
             return $PDO;
-        } catch (PDOException $error) {
-            return $error->getMessage();
+        } catch (PDOException $e) {
+            echo 'Error al conectar a la base de datos: ' . $e->getMessage();
         }
     }
-    }
+    } 
 }
