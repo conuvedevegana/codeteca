@@ -29,7 +29,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 2rem; /* Ajusta según tus necesidades */
+    margin-top: 2rem; 
   }
   
   .booksTop, .booksMiddle, 
@@ -41,7 +41,7 @@ main {
   }
   
   .bookPhoto {
-    margin: 1rem; /* Ajusta según tus necesidades */
+    margin: 1rem; 
   }
   
   .bookPhoto img {
