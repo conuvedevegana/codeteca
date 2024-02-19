@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../../../resources/css/book_search.css"/>
+    <link rel="stylesheet" href="../../../resources/css/book_search.css">
 </head>
 
 <body>
@@ -19,8 +19,18 @@
             <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
-    <main>
-        <!-- aquí aparecerá el/los libro/s buscados en la navbar -->
+    <main class="books_results_container">
+        <h1>Resultados de Búsqueda</h1>
+        <section class="books_results">
+            <div class="book_result_item">
+                <img src="../../../resources/img/respondona.jpg" class="book_result_img" alt="Portada del Libro">
+                <h2 class="book_result_title">Respondona</h2>
+            </div>
+            <div class="book_result_item">
+                <img src="../../../resources/img/respondona.jpg" class="book_result_img" alt="Portada del Libro">
+                <h2 class="book_result_title">Respondona</h2>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
