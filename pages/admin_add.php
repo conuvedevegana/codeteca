@@ -23,27 +23,40 @@
     </header>
 
     <main>
-        <section class="addBook">
-            <h2>Agregar libro</h2>
-            <label>Titulo</label>
-            <input id="searchBar" type="text" name="título" placeholder="Escribe el título"></input>
-            <label>Autora</label>
-            <input id="searchBar" type="text" name="Autora" placeholder="Escribe el nombre de la autora"></input>
-            <label>ISBN</label>
-            <input id="searchBar" type="text" name="ISBN" placeholder="ISBN"></input>
-            <section class="bookDescription">
-                <label>Descripcion: </label>
-                <textarea name="Description">
+        <aside>
+            <div class="bookCoverAdd">
+                <section class="uploadCover">
+                    <label class="bookCover"> Portada del libro: </label>
+                    <input type="file" name="bookCover" accept="image/*">
+                </section>
+                <section class="uploadCoverButtons">
+                    <button id=uploadCoverButton>Añadir foto</button>
+                </section>
+            </div>
+        </aside>
+
+        <div class="addDash">
+            <section class="addBook">
+                <h2>Agregar libro</h2>
+                <label>Titulo</label>
+                <input id="searchBar" type="text" name="título" placeholder="Escribe el título"></input>
+                <label>Autora</label>
+                <input id="searchBar" type="text" name="Autora" placeholder="Escribe el nombre de la autora"></input>
+                <label>Genero</label>
+                <input id="searchBar" type="text" name="Genero" placeholder="Genero"></input>
+                <label>ISBN</label>
+                <input id="searchBar" type="text" name="ISBN" placeholder="ISBN"></input>
+                <section class="bookDescription">
+                    <label>Descripcion: </label>
+                    <textarea name="Description">
                 </textarea>
-            </section>
-            <section class="uploadCover">
-                <label class="bookCover"> Portada del libro: </label>
-                <input type="file" name="bookCover" accept="image/*">
-            </section>
-            <section class="editingButtons">
-                <button id=saveButton>Guardar</button>
-                <button id=cancelButton>Cancelar</button>
-            </section>
+                </section>
+                <section class="editingButtons">
+                    <button id=saveButton>Guardar</button>
+                    <button id=cancelButton>Cancelar</button>
+                    <button id=publishButton>Publicar</button>
+                </section>
+        </div>
     </main>
 
     <footer>
