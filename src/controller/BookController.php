@@ -14,7 +14,7 @@ class BookController{
     //aqui pediremos que nos muestre la info de la base de datos
     public function getBooks()
     {
-       return ($this->model->getBooks()) ? $this->model->getBooks() : "No hay books"; 
+       return ($this->model->getBooks()) ? $this->model->getBooks() : "No hay  books"; 
         
     }
 
