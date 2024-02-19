@@ -1,3 +1,32 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'style.css';
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    .books_results {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .book_result_item {
+        width: 200px;
+        text-align: center;
+    }
+    
+    .book_result_img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .book_result_title {
+        color: black;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
