@@ -48,8 +48,8 @@
                     <textarea name="Description"></textarea>
                 </section>
                 <section class="editingButtons">
-                    <button href="./admin_search.php" id=editButton>Guardar</button>
-                    <button href="./admin_index.php" id=deleteButton>Cancelar</button>
+                    <button> <a href="./admin_search.php" id=editButton>Guardar</button></a>
+                    <button> <a href="./admin_index.php" id=deleteButton>Cancelar</button></a>
                 </section>
             </section>
         </div>
