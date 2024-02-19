@@ -1,4 +1,13 @@
+<?php
 
+    use Config\Database;
+
+    require_once __DIR__ . '/vendor/autoload.php';
+    
+    $db = new Database();
+    var_dump($db->connection())    
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">

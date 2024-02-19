@@ -3,10 +3,10 @@ namespace Config;
 
 //aqui en este archivo haremos la conexion con la base de datos
 
-// use PDO;
-// use PDOException;
+use PDO;
+use PDOException;
 
-class db {
+class Database {
     private $host = "localhost";
     private $user = "root";
     private $password = "";
