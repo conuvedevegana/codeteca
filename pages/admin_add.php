@@ -29,10 +29,11 @@
                     <label class="bookCover"> Portada del libro: </label>
                     <input type="file" name="bookCover" accept="image/*">
                 </section>
-                <section class="uploadCoverButtons">
-                    <button id=uploadCoverButton>Añadir foto</button>
-                </section>
+
             </div>
+            <section class="uploadCoverButtons">
+                <button id=uploadCoverButton>Añadir foto</button>
+            </section>
         </aside>
 
         <div class="addDash">

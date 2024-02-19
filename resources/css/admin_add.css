@@ -79,9 +79,10 @@ aside {
 .bookCoverAdd {
     background-color: #ccc;
     border-radius: 0.8rem;
-    padding: 1.6rem;
+    padding-bottom: 25rem;
     text-align:left;
     margin-bottom: -0.8rem;
+    padding-right: 50px;
 }
 h2 {
     font-size: 1rem;
@@ -111,6 +112,7 @@ label {
 .uploadCover {
     margin-bottom: 2rem;
     margin-inline-start: 10px;
+
 }
 
 #uploadCoverButton {

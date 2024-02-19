@@ -29,10 +29,11 @@
                     <label class="bookCoverEdit"> Portada del libro: </label>
                     <input type="file" name="bookCoverEdit" accept="image/*">
                 </section>
-                <section class="CoverButtons">
-                    <button id=uploadCoverButton>Añadir foto</button>
-                </section>
+
             </div>
+            <section class="CoverButtons">
+                <button id=uploadCoverButton>Editar foto</button>
+            </section>
         </aside>
 
         <div class="addDash">
@@ -46,9 +47,10 @@
                 <input id="searchBar" type="text" name="Genero" placeholder="Genero"></input>
                 <label>ISBN</label>
                 <input id="searchBar" type="text" name="ISBN" placeholder="ISBN"></input>
-                <section class="bookDescriptionEditar">
+                <section class="bookDescriptionEdit">
                     <label>Descripcion: </label>
-                    <textarea name="Description"></textarea>
+                    <textarea name="Description">
+                    </textarea>
                 </section>
                 <section class="editingButtons">
                     <button id=editButton>Editar</button>
