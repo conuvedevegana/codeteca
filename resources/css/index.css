@@ -1,0 +1,41 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'style.css';
+
+/* Main styles */
+main {
+    text-align: center;
+  }
+  
+  .banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .booksPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem; 
+  }
+  
+  .booksTop,
+  .booksBottom {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .bookPhoto {
+    margin: 1rem;
+  }
+  
+  .bookPhoto img {
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
