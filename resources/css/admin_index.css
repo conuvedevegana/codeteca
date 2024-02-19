@@ -1,3 +1,13 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'style.css';
+
+.booksPhotos{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
+
+.booksTop{
+    background-color: blueviolet;
+}
