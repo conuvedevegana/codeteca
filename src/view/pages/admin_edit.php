@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../resources/css/admin_edit.css">
-    <link rel="stylesheet" href="resources\css\styles.css">
-    <link rel="stylesheet" href="resources\css\header.css">
-    <link rel="stylesheet" href="resources\css\footer.css">
+    <link rel="stylesheet" href="../../../resources/css/admin_edit.css"/>
+
 </head>
 
 <body>
@@ -29,11 +27,10 @@
                     <label class="bookCoverEdit"> Portada del libro: </label>
                     <input type="file" name="bookCoverEdit" accept="image/*">
                 </section>
-
+                <section class="CoverButtons">
+                    <button id=uploadCoverButton>Añadir foto</button>
+                </section>
             </div>
-            <section class="CoverButtons">
-                <button id=uploadCoverButton>Editar foto</button>
-            </section>
         </aside>
 
         <div class="addDash">
@@ -47,10 +44,9 @@
                 <input id="searchBar" type="text" name="Genero" placeholder="Genero"></input>
                 <label>ISBN</label>
                 <input id="searchBar" type="text" name="ISBN" placeholder="ISBN"></input>
-                <section class="bookDescriptionEdit">
+                <section class="bookDescriptionEditar">
                     <label>Descripcion: </label>
-                    <textarea name="Description">
-                    </textarea>
+                    <textarea name="Description"></textarea>
                 </section>
                 <section class="editingButtons">
                     <button id=editButton>Editar</button>

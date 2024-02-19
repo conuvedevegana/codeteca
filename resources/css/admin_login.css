@@ -1,0 +1,68 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'style.css';
+
+
+.backButton{
+    align-items: center;
+    background-color: #7EAA92;
+    margin-right: 45rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.containerLogin{
+    background-color: #F9F3DF;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 15rem;
+    border-radius: 20px;
+    width: 50rem;
+    padding-left: 13rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.inputLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#7EAA92;
+    gap: 5PX;
+    padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 1.5rem;
+    border-radius: 20px;
+    width: 20rem;
+}
+
+.inputLogin input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+.loginButton{
+    margin: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: bisque;
+    border-radius: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #45a049;
+}

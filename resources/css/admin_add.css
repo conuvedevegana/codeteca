@@ -1,3 +1,7 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'style.css';
+
 main{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
