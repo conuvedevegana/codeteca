@@ -1,52 +1,10 @@
-/* HEADER!! */
-header{
-    margin: 0;
-    padding: 0;
-}
-.headerBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
+@import 'header.css';
+@import 'footer.css';
+@import 'style.css';
 
-.logo {
-  width: 13rem;
-  height: 3rem;
-}
-
-#searchBar {
-  width: 15rem;
-  padding: 0.5rem 1rem 0.5rem 0.5rem;
-  margin: 0 1rem;
-  border-radius: 1rem;
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>');
-  background-repeat: no-repeat;
-  background-position: calc(100% - 1rem) center;
-  background-size: 1rem;
-}
-
-#loginButton {
-  background-color: #f9f3df;
-  border: none;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 1rem;
-}
-
-#loginButton a {
-  color: black;
-  text-decoration: none;
-}
-
-#loginButton:hover {
-  background-color: #45a049;
-}
 
 #backButton {
-  background-color: #7eaa92;
+  background-color: F9F3DF;
   border: none;
   padding: 1rem 2rem;
   text-decoration: none;
@@ -55,7 +13,7 @@ header{
 }
 
 #backButton a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -98,40 +56,4 @@ section #coment-book {
   border-radius: 1rem;
 }
 
-/* !FOOTER! */
 
-footer {
-  background-color: #3d634e;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
-
-.socialMedia ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.socialMedia li {
-  margin: 0 1rem;
-}
-
-.socialMedia a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Social media icons */
-.fa-facebook::before {
-  content: "\f09a";
-}
-
-.fa-instagram::before {
-  content: "\f16d";
-}
-
-.fa-twitter::before {
-  content: "\f099";
-}

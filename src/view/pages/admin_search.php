@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="resources\css\admin_add.css">
-    <link rel="stylesheet" href="resources\css\styles.css">
-    <link rel="stylesheet" href="resources\css\header.css">
-    <link rel="stylesheet" href="resources\css\footer.css">
+    <link rel="stylesheet" href="../../../resources/css/admin_search.css"/>
+
 </head>
 
 <body>
@@ -21,31 +19,17 @@
             <button id="loginButton" href="pages\admin_login.php">Inicia sesión</button>
         </nav>
     </header>
-
     <main>
-        <section class="addBook">
-            <h2>Agregar libro</h2>
-            <label>Titulo</label>
-            <input id="searchBar" type="text" name="título" placeholder="Escribe el título"></input>
-            <label>Autora</label>
-            <input id="searchBar" type="text" name="Autora" placeholder="Escribe el nombre de la autora"></input>
-            <label>ISBN</label>
-            <input id="searchBar" type="text" name="ISBN" placeholder="ISBN"></input>
-            <section class="bookDescription">
-                <label>Descripcion: </label>
-                <textarea name="Description">
-                </textarea>
-            </section>
-            <section class="uploadCover">
-                <label class="bookCover"> Portada del libro: </label>
-                <input type="file" name="bookCover" accept="image/*">
-            </section>
-            <section class="editingButtons">
-                <button id=saveButton>Guardar</button>
-                <button id=cancelButton>Cancelar</button>
-            </section>
+        <img src="" alt="portada del libro buscado">
+        <section>
+            <button id="editButton"><a href="#">Editar</a></button>
+            <button id="deleteButton">Borrar</button>
+        </section>
+        <article>
+            <h2>Titulo libro<h2>
+                    <p>Descripción</p>
+        </article>
     </main>
-
     <footer>
         <p>Todos los derechos reservados</p>
         <section class="socialMedia">
