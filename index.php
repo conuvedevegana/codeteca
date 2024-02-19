@@ -1,11 +1,11 @@
 <?php
 
-    use Model\BookModel;
+    use Controller\BookController;
 
     require_once __DIR__ . '/vendor/autoload.php';
     
-    $connection = new BookModel;
-    var_dump($connection->getBooks());
+    $controller = new BookController;
+    print_r($controller->getBooks());
 
 ?>
 

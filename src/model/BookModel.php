@@ -1,6 +1,8 @@
 <?php
 namespace Model;
+use PDO;
 use Config\Database;
+
 
 // es el encargado de conectarse a la base de datos 
 class BookModel
