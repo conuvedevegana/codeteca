@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../../../resources/css/book_info.css"/>
-    
+    <link rel="stylesheet" href="../../../resources/css/book_info.css" />
+
 </head>
 
 <body>
@@ -21,21 +21,16 @@
         </nav>
     </header>
     <main>
-        <img id="img-book" src="./resources/img/cthulhu.jpg" alt="portada del libro buscado">
-        <article id="description">
-            <h2>La llamada de Cthulhu</h2>
-            <p><strong>Autor: H.P. Lovecraft</strong></p>
-            <p><strong>Género: Clásicos ilustrados</strong></p>
-            <p><strong>ISBN: -978-8415618683</strong></p>
+        <img id="img-book" src="" alt="portada del libro buscado">
+        <aside id="description">
+            <h2 id="titleBookInfo">TITULO</h2>
+            <p id="authorBookInfo"><strong>TAMY</strong></p>
+            <p id="genreBookInfo"><strong>CAROLINA</strong></p>
+            <p id="isbnBookInfo"><strong>GABY</strong></p>
             <section>
-                <p id="coment-book">H. P. Lovecraft ha pasado a la historia de la literatura como uno de los grandes innovadores del relato fantástico y de terror del siglo XX. <br>
-                    Niño prodigio empezó a leer y escribir su primer cuento a muy temprana edad. <br>
-                    Ya en la adolescencia era de solitaria vida nocturna y vivió atormentado. <br>
-                    "Es un escritor de culto que con sus obras de auténtico terror produce adición entre sus lectores. <br>
-                    Esta obra es una de las más emblemáticas que atrapa hasta el final y propició el nacimiento de los llamados Mitos de Cthulhu. <br>
-                    «La emoción más antigua y más intensa de la humanidad es el miedo, y el más antiguo y más intenso de los miedos es el miedo a lo desconocido».</p>
+                <p id="descriptionBookInfo">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
             </section>
-        </article>
+        </aside>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
