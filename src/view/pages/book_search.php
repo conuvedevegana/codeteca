@@ -26,7 +26,7 @@
                 <img src="" class="book_result_img" alt="Portada del Libro">
                 <h2 class="book_result_title"></h2>
             </div>
-          
+        
         </section>
     </main>
     <footer>
