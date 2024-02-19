@@ -1,13 +1,69 @@
-@import 'header.css';
-@import 'footer.css';
-@import 'style.css';
+@import url("header.css");
+@import url("footer.css");
+@import url("styles.css");
 
-.booksPhotos{
+/* Main styles */
+main {
+    text-align: center;
+  }
+  
+  #addBookButton {
+    background-color: F9F3DF;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  #addBookButton a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #addBookButton:hover {
+    background-color: #45a049;
+  }
+
+  #loginOutButton {
+    background-color: F9F3DF;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  #loginOutButton a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #loginOutButton:hover {
+    background-color: #45a049;
+  }
+  
+  .booksPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem; 
+  }
+  
+  .booksTop, .booksMiddle, 
+  .booksBottom {
+    list-style: none;
     display: flex;
     justify-content: center;
-    background-color: brown;
-}
-
-.booksTop{
-    background-color: blueviolet;
-}
+    flex-wrap: wrap;
+  }
+  
+  .bookPhoto {
+    margin: 1rem; 
+  }
+  
+  .bookPhoto img {
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+  }

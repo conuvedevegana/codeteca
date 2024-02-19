@@ -13,10 +13,9 @@
 <body>
     <header>
         <nav class="headerBar">
-            <a href="index.php"><img class="logo" src="resources\img\logo.png" alt="logo de Codeteca"></a>
+            <a href="../../../index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="addBookButton" href="pages\admin_add.php">Añadir libro</button>
-            <button id="loginButton" href="pages\admin_login.php">Inicia sesión</button>
+            <button id="loginButton" href="pages\admin_login.php">Salir</button>
         </nav>
     </header>
 
@@ -44,13 +43,13 @@
                 <input id="searchBar" type="text" name="Genero" placeholder="Genero"></input>
                 <label>ISBN</label>
                 <input id="searchBar" type="text" name="ISBN" placeholder="ISBN"></input>
-                <section class="bookDescriptionEditar">
+                <section class="bookDescriptionEdit">
                     <label>Descripcion: </label>
                     <textarea name="Description"></textarea>
                 </section>
                 <section class="editingButtons">
-                    <button id=editButton>Editar</button>
-                    <button id=deleteButton>Borrar</button>
+                    <button href="./admin_search.php" id=editButton>Guardar</button>
+                    <button href="./admin_index.php" id=deleteButton>Cancelar</button>
                 </section>
             </section>
         </div>

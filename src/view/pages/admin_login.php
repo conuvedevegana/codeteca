@@ -14,16 +14,16 @@
     <header>
         <nav class="headerBar">
             <img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
-            <a class="backButton" href="../../../index.php">Back</a>
+            <a class="backButton" href="../../../index.php">Volver</a>
         </nav>
     </header>
 
     <main>
         <div class="containerLogin">
             <div class="inputLogin">
-                <input type="text" placeholder="Username" required></input>
-                <input type="password" placeholder="Password" required></input>
-                <a class="loginButton" href="./admin_index.php">Login</a>
+                <input type="text" placeholder="Nombre de usuaria" required></input>
+                <input type="password" placeholder="Contraseña" required></input>
+                <a class="loginButton" href="../pages/admin_index.php">Entrar</a>
             </div>
           
         </div>

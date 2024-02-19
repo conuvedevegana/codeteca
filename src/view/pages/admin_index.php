@@ -12,35 +12,35 @@
 <body>
     <header>
         <nav class="headerBar">
-            <a href="index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
+            <a href="../../../index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="addBookButton"><a  href="./admin_add.php">Añadir libro</a></button>
-            <button id="loginOutButton"><a href="../../../index.php">Log out</a></button>
+            <button id="addBookButton" href="./admin_add.php">Añadir libro</button>
+            <button id="loginOutButton"><a href="../../../index.php">Salir</a></button>
         </nav>
     </header>
 
     <main>
         <section class="booksPhotos">
             <ul class=booksTop>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="./resources/img/asesinato_en_el_orient.jpg" alt="Portada de Asesinato en el Orient Express"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\cuando_dios_era_mujer.jpg" alt="Portada de Cuando Dios era mujer"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\vozdevieja.jpg" alt="Portada de Vozdevieja"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\respondona.jpg" alt="Portada de Respondona"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/asesinato_en_el_orient.jpg" alt="Portada de Asesinato en el Orient Express"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/cuando_dios_era_mujer.jpg" alt="Portada de Cuando Dios era mujer"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/vozdevieja.jpg" alt="Portada de Vozdevieja"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/respondona.jpg" alt="Portada de Respondona"></li>
             </ul>
             <ul class=booksMiddle>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\mujeres_raza_clase.jpg" alt="Portada de Mujeres raza clase"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\ghostgirl.jpg" alt="Portada de Ghostgirl"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\mirada_inquieta.jpg" alt="Portada de La mirada inquieta: cómo disfrutar del arte con tus propios ojos"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\tecnologia_ciencia.jpg" alt="Portada de Tecnologia,Ciencia y Naturaleza"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\todo_sobre_el_amor.jpg" alt="Portada de Todo sobre el amor"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/mujeres_raza_clase.jpg" alt="Portada de Mujeres raza clase"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/ghostgirl.jpg" alt="Portada de Ghostgirl"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/mirada_inquieta.jpg" alt="Portada de La mirada inquieta: cómo disfrutar del arte con tus propios ojos"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/tecnologia_ciencia.jpg" alt="Portada de Tecnologia,Ciencia y Naturaleza"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/todo_sobre_el_amor.jpg" alt="Portada de Todo sobre el amor"></li>
             </ul>
             <ul class=booksBottom>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\listas_guapas_limpias.jpg" alt="Portada de  Listas, guapas, limpias"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\el_color_purpura.jpg" alt="Portada de El color púrpura"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\cthulhu.jpg" alt="Portada de La llamada de Cthulhu"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\mujeres_que_corren.jpg" alt="Portada de Mujeres que corren con los lobos"></li>
-                <li class="bookPhoto"><a href="pages\admin_search.php"><img src="resources\img\recetas_de_oro.jpg" alt="Portada de 1000 recetas de oro"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/listas_guapas_limpias.jpg" alt="Portada de  Listas, guapas, limpias"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/el_color_purpura.jpg" alt="Portada de El color púrpura"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/cthulhu.jpg" alt="Portada de La llamada de Cthulhu"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/mujeres_que_corren.jpg" alt="Portada de Mujeres que corren con los lobos"></li>
+                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/recetas_de_oro.jpg" alt="Portada de 1000 recetas de oro"></li>
             </ul>
         </section>
     </main>

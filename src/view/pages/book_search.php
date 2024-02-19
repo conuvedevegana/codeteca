@@ -13,14 +13,21 @@
 
     <header>
         <nav class="headerBar">
-            <a href="index.php"><img class="logo" src="resources\img\logo.png" alt="logo de Codeteca"></a>
+            <a href="../../../index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="backButton"><a href="index.php">Volver</a></button>
-            <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
+            <button id="backButton"><a href="../../../index.php">Volver</a></button>
+            <button id="loginButton"><a href="./admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
-    <main>
-        <!-- aquí aparecerá el/los libro/s buscados en la navbar -->
+    <main class="books_results_container">
+        <h1>Resultados de Búsqueda</h1>
+        <section class="books_results">
+            <div class="book_result_item">
+                <img src="" class="book_result_img" alt="Portada del Libro">
+                <h2 class="book_result_title"></h2>
+            </div>
+          
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
