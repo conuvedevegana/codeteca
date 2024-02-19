@@ -1,0 +1,13 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'style.css';
+
+.headerBar{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    width: 15px;
+}

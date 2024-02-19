@@ -1,3 +1,6 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'style.css';
 /* Footer styles */
 footer {
     background-color: #3d634e;
