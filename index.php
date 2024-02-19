@@ -1,11 +1,11 @@
 <?php
 
-    use Config\Database;
+    use Model\CodetecaModel;
 
     require_once __DIR__ . '/vendor/autoload.php';
     
-    $db = new Database();
-    var_dump($db->connection())    
+    $model = new bookModel;
+    var_dump($model);
 
 ?>
 
