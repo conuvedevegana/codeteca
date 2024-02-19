@@ -1,6 +1,6 @@
-@import url("./header.css");
-@import url("./footer.css");
-@import url("./styles.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("styles.css");
 
 /* Main styles */
 main {
@@ -22,6 +22,24 @@ main {
   }
   
   #addBookButton:hover {
+    background-color: #45a049;
+  }
+
+  #loginOutButton {
+    background-color: F9F3DF;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  #loginOutButton a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #loginOutButton:hover {
     background-color: #45a049;
   }
   
