@@ -22,7 +22,7 @@
     <main>
         <img src="" alt="portada del libro buscado">
         <section>
-            <button id="editButton"><a href="#">Editar</a></button>
+            <button id="editButton"><a href="./admin_edit.php">Editar</a></button>
             <button id="deleteButton">Borrar</button>
         </section>
         <article>
