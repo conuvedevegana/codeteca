@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class="headerBar">
-            <img class="logo" src="../resources/img/Logo.png" alt="logo de Codeteca"></a>
+            <img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <a class="backButton" href="../../../index.php">Volver</a>
         </nav>
     </header>
@@ -22,8 +22,8 @@
     <main>
         <div class="containerLogin">
             <div class="inputLogin">
-                <input type="text" placeholder="Username" required></input>
-                <input type="password" placeholder="Password" required></input>
+                <input type="text" placeholder="Nombre de usuaria" required></input>
+                <input type="password" placeholder="Contraseña" required></input>
                 <a class="loginButton" href="../pages/admin_index.php">Entrar</a>
             </div>
           
