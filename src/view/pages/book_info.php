@@ -14,14 +14,14 @@
 
     <header>
         <nav class="headerBar">
-            <a href="index.php"><img class="logo" src="../resources/img/logo.png" alt="logo de Codeteca"></a>
+            <a href="index.php"><img class="logo" src="" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
             <button id="backButton"><a href="index.php">Volver</a></button>
             <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
     <main>
-        <img id="img-book" src="../resources/img/cthulhu.jpg" alt="portada del libro buscado">
+        <img id="img-book" src="./resources/img/cthulhu.jpg" alt="portada del libro buscado">
         <article id="description">
             <h2>La llamada de Cthulhu</h2>
             <p><strong>Autor: H.P. Lovecraft</strong></p>
