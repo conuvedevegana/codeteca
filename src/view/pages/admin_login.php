@@ -6,7 +6,6 @@
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../../resources/css/admin_login.css"/>
-   
 </head>
 <body>
     <header>
@@ -42,7 +41,7 @@
 </html>
 
 <?php
-use Config\db;
+use Config\Database;
 
 session_start();
 
@@ -50,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     require_once '../../../config/Database.php'; 
 
-    $db = new db();
+    $db = new Database();
     $connection = $db->connection();
 
 
