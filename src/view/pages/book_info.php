@@ -23,12 +23,12 @@
     <main>
         <img id="img-book" src="" alt="portada del libro buscado">
         <aside id="description">
-            <h2 id="titleBookInfo">TITULO</h2>
-            <p id="authorBookInfo"><strong>TAMY</strong></p>
-            <p id="genreBookInfo"><strong>CAROLINA</strong></p>
-            <p id="isbnBookInfo"><strong>GABY</strong></p>
+            <h2 id="titleBookInfo"></h2>
+            <p id="authorBookInfo"><strong></strong></p>
+            <p id="genreBookInfo"><strong></strong></p>
+            <p id="isbnBookInfo"><strong></strong></p>
             <section>
-                <p id="descriptionBookInfo">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+                <p id="descriptionBookInfo"></p>
             </section>
         </aside>
     </main>
