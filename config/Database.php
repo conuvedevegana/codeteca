@@ -6,16 +6,16 @@ namespace Config;
 use PDO;
 use PDOException;
 
-class db {
+class Database {
     private $host = "localhost";
     private $user = "root";
     private $password = "";
-    private $dbname = "biblioteca_codeteca";
+    private $dbName = "biblioteca_codeteca";
 
     public function connection(){
         {
         try {
-            $PDO = new PDO("mysql:host={$this->host}; dbname={$this->dbname}; user={$this->user}; password={$this->password}");
+            $PDO = new PDO("mysql:host={$this->host}; dbname={$this->dbName}; user={$this->user}; password={$this->password}");
             return $PDO;
         } catch (PDOException $e) {
             echo 'Error al conectar a la base de datos: ' . $e->getMessage();

@@ -1,3 +1,15 @@
+<?php
+require_once __DIR__ . '../../../vendor/autoload.php';
+
+use Controller\BookController;
+
+$con = new BookController;
+$bookId = $_GET['id']; // el ID por la URL
+
+$book = $con->getBookById($bookId);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,17 +35,12 @@
     <main>
         <img id="img-book" src="" alt="portada del libro buscado">
         <aside id="description">
-            <h2 id="titleBookInfo"></h2>
-            <p id="authorBookInfo"><strong></strong></p>
-            <p id="genreBookInfo"><strong></strong></p>
-            <p id="isbnBookInfo"><strong></strong></p>
-            <h2 id="titleBookInfo">Resultado de la busqueda</h2>
-            <p id="authorBookInfo"><strong></strong></p>
-            <p id="genreBookInfo"><strong></strong></p>
-            <p id="isbnBookInfo"><strong></strong></p>
-            <section>
-                <p id="descriptionBookInfo"></p>
-            </section>
+
+                <h1>Información del Libro</h1>
+                <p>Título: <?php echo $book['Title']; ?></p>
+                <p>Autor: <?php echo $book['Author']; ?></p>
+                <p>Description: <?php echo $book['Description']; ?></p>
+           
         </aside>
     </main>
     <footer>

@@ -1,4 +1,13 @@
+<?php
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Controller\BookController;
+
+$con = new BookController;
+$books = $con->getBooks();
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,20 +33,31 @@
     <main>
         <img class="banner" alt="lomos de libros de diferentes colores en una estantería" src="resources\img\banner.jpg">
         <section class="booksPhotos">
-            <ul class=booksTop>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="./resources/img/asesinato_en_el_orient.jpg" alt="Portada de Asesinato en el Orient Express"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\cuando_dios_era_mujer.jpg" alt="Portada de Cuando Dios era mujer"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\vozdevieja.jpg" alt="Portada de Vozdevieja"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\respondona.jpg" alt="Portada de Respondona"></a></li>
+
+          
+            <?php
+                foreach($books as $book) 
+            ?>
+            
+             <ul class="booksTop">
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=12"><img src="resources\img\100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=4"><img src="./resources/img/asesinato_en_el_orient.jpg" alt="Portada de Asesinato en el Orient Express"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=3"><img src="resources\img\cuando_dios_era_mujer.jpg" alt="Portada de Cuando Dios era mujer"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=14"><img src="resources\img\vozdevieja.jpg" alt="Portada de Vozdevieja"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=9"><img src="resources\img\respondona.jpg" alt="Portada de Respondona"></a></li>
             </ul>
-            <ul class=booksBottom>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\mujeres_raza_clase.jpg" alt="Portada de Mujeres raza clase"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\ghostgirl.jpg" alt="Portada de Ghostgirl"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\mirada_inquieta.jpg" alt="Portada de La mirada inquieta: cómo disfrutar del arte con tus propios ojos"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\tecnologia_ciencia.jpg" alt="Portada de Tecnologia,Ciencia y Naturaleza"></a></li>
-                <li class="bookPhoto"><a href="./src/view/pages/book_info.php"><img src="resources\img\todo_sobre_el_amor.jpg" alt="Portada de Todo sobre el amor"></a></li>
+                <ul class="booksBottom">
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=8"><img src="resources\img\mujeres_raza_clase.jpg" alt="Portada de Mujeres raza clase"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=5"><img src="resources\img\ghostgirl.jpg" alt="Portada de Ghostgirl"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=15"><img src="resources\img\mirada_inquieta.jpg" alt="Portada de La mirada inquieta: cómo disfrutar del arte con tus propios ojos"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=12"><img src="resources\img\tecnologia_ciencia.jpg" alt="Portada de Tecnologia,Ciencia y Naturaleza"></a></li>
+                <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=2"><img src="resources\img\todo_sobre_el_amor.jpg" alt="Portada de Todo sobre el amor"></a></li>
             </ul>
+
+
+         
+
+
         </section>
     </main>
     <footer>
