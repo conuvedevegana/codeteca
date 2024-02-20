@@ -39,6 +39,7 @@
     </footer>
 </body>
 </html>
+
 <?php
 use Config\db;
 
@@ -51,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $db = new db();
     $connection = $db->connection();
 
-
+    
     $username = $_POST['username'];
 
     $sql = "SELECT * FROM users WHERE Role = 'Admin' AND Name = '$username'";
