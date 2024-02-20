@@ -16,19 +16,19 @@
         <nav class="headerBar">
             <a href="index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="backButton"><a href="index.php">Volver</a></button>
-            <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
+            <button id="backButton"><a href="../../../index.php">Volver</a></button>
+            <button id="loginButton"><a href="./admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
     <main>
         <img id="img-book" src="" alt="portada del libro buscado">
         <aside id="description">
-            <h2 id="titleBookInfo">TITULO</h2>
-            <p id="authorBookInfo"><strong>TAMY</strong></p>
-            <p id="genreBookInfo"><strong>CAROLINA</strong></p>
-            <p id="isbnBookInfo"><strong>GABY</strong></p>
+            <h2 id="titleBookInfo">Resultado de la busqueda</h2>
+            <p id="authorBookInfo"><strong></strong></p>
+            <p id="genreBookInfo"><strong></strong></p>
+            <p id="isbnBookInfo"><strong></strong></p>
             <section>
-                <p id="descriptionBookInfo">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+                <p id="descriptionBookInfo"></p>
             </section>
         </aside>
     </main>
