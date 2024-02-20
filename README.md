@@ -7,7 +7,7 @@ modernizar la biblioteca del barrio mediante la creación de una aplicación web
 
 Clona este repositorio a tu máquina local con el siguente comando: "git clone https://github.com/conuvedevegana/codeteca.git
 
-Añadir dicho repositorio en la ruta /Applications/XAMPP/index.php
+Añadir dicho repositorio en la ruta de tu proyectos en MAMP o XAMPP, carpeta htdocs.
 Instala las dependencias usando composer install.
 Inicia la aplicación con composer start.
 Debes tener instalada la base de datos y su tabla, llamada biblioteca_codeteca.
@@ -15,8 +15,8 @@ Debes tener instalada la base de datos y su tabla, llamada biblioteca_codeteca.
 
 ## 💻 Tecnologías
 
-- HTML
-- CSS
+- HTML 5
+- CSS 3
 - PHP
 - PHPUnit
 - MySQL
