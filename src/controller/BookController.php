@@ -4,7 +4,9 @@ namespace Controller;
 use Model\BookModel;
 
 class BookController {
-    public function getBooks() {
+
+    public function getBooks() 
+    {
         $bookModel = new BookModel();
         return $bookModel->getBooks();
     }
