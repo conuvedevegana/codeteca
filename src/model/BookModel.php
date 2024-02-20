@@ -3,8 +3,9 @@ namespace Model;
 
 use PDO;
 
+
 class BookModel {
-    private $db;
+    private $db;   //propiedad privada $db que es una instancia de la clase PDO
 
     public function __construct() {
         $this->db = new PDO('mysql:host=localhost;dbname=biblioteca_codeteca', 'root', '');
@@ -12,7 +13,7 @@ class BookModel {
 
     public function getBooks() {
         $query = $this->db->query("SELECT * FROM books");
-        return $query->fetchAll(PDO::FETCH_ASSOC);
+        return $query->fetchAll(PDO::FETCH_ASSOC);  //devuelve result como un array asociativo
     }
 }
 

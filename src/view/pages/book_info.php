@@ -36,7 +36,7 @@ $book = $con->getBookById($bookId);
         <img id="img-book" src="" alt="portada del libro buscado">
         <aside id="description">
 
-                    <h1>Información del Libro</h1>
+                <h1>Información del Libro</h1>
                 <p>Título: <?php echo $book['Title']; ?></p>
                 <p>Autor: <?php echo $book['Author']; ?></p>
                 <p>Description: <?php echo $book['Description']; ?></p>
