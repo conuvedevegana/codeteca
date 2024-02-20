@@ -40,6 +40,7 @@
     </footer>
 </body>
 </html>
+
 <?php
 use Config\db;
 
@@ -58,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "SELECT * FROM users WHERE Role = 'Admin' AND Name = '$username'";
     $result = $connection->query($sql);
 
-    if ($result->rowCount() == 1) {
+    if ($result->rowCount() == 1) { 
     
         $_SESSION['loggedin'] = true;
         header("Location: admin_index.php");
