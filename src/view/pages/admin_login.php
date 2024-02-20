@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codeteca</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../../../resources/css/admin_login.css" />   
+    <link rel="stylesheet" href="../../../resources/css/admin_login.css"/>
+   
 </head>
-
 <body>
     <header>
         <nav class="headerBar">
@@ -21,11 +19,12 @@
     <main>
         <div class="containerLogin">
             <div class="inputLogin">
-                <input type="text" placeholder="Nombre de usuaria" required></input>
-                <input type="password" placeholder="Contraseña" required></input>
-                <a class="loginButton" href="../pages/admin_index.php">Entrar</a>
+                <form action="admin_login.php" method="POST">
+                    <input type="text" name="username" placeholder="Nombre de usuaria" required>
+                    <input type="password" name="password" placeholder="Contraseña">
+                    <button type="submit" class="loginButton">Entrar</button>
+                </form>
             </div>
-          
         </div>
     </main>
 
@@ -40,5 +39,32 @@
         </section>
     </footer>
 </body>
-
 </html>
+<?php
+use Config\db;
+
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    require_once '../../../config/Database.php'; 
+
+    $db = new db();
+    $connection = $db->connection();
+
+
+    $username = $_POST['username'];
+
+    $sql = "SELECT * FROM users WHERE Role = 'Admin' AND Name = '$username'";
+    $result = $connection->query($sql);
+
+    if ($result->rowCount() == 1) {
+    
+        $_SESSION['loggedin'] = true;
+        header("Location: admin_index.php");
+        exit;
+    } else {
+        echo "Credenciales inválidas. Por favor, inténtalo de nuevo.";
+    }
+}
+?>

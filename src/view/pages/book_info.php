@@ -28,17 +28,21 @@ $book = $con->getBookById($bookId);
         <nav class="headerBar">
             <a href="index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="backButton"><a href="index.php">Volver</a></button>
-            <button id="loginButton"><a href="pages\admin_login.php">Inicia sesión</a></button>
+            <button id="backButton"><a href="../../../index.php">Volver</a></button>
+            <button id="loginButton"><a href="./admin_login.php">Inicia sesión</a></button>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Información del Libro</h1>
-            <p>Título: <?php echo $book['title']; ?></p>
-            <p>Autor: <?php echo $book['author']; ?></p>
-            <p>Reseña: <?php echo $book['reseña']; ?></p>
-        </section>
+        <img id="img-book" src="" alt="portada del libro buscado">
+        <aside id="description">
+            <h2 id="titleBookInfo">TITULO</h2>
+            <p id="authorBookInfo"><strong>TAMY</strong></p>
+            <p id="genreBookInfo"><strong>CAROLINA</strong></p>
+            <p id="isbnBookInfo"><strong>GABY</strong></p>
+            <section>
+                <p id="descriptionBookInfo">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+            </section>
+        </aside>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>

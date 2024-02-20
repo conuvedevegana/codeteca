@@ -3,7 +3,7 @@
 @import 'style.css';
 
 #backButton {
-  background-color: F9F3DF;
+  background-color: #7EAA92;
   border: none;
   padding: 1rem 2rem;
   text-decoration: none;
@@ -26,19 +26,18 @@ main {
 }
 
 #img-book {
-  width: 20rem;
+  width: 20rem; 
   margin-right: 1rem; 
 }
 
 #description {
-  flex: 1; 
+  flex: 1;
 }
 
 main {
-
   padding: 2rem;
 }
 
 h2, p {
-  margin: 0; 
+  margin: 0;
 }
