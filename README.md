@@ -15,8 +15,8 @@ Debes tener instalada la base de datos y su tabla, llamada biblioteca_codeteca.
 
 ## 💻 Tecnologías
 
-- HTML
-- CSS
+- HTML 5
+- CSS 3
 - PHP
 - PHPUnit
 - MySQL
