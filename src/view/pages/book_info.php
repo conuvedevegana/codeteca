@@ -1,22 +1,12 @@
 <?php
-// Incluir el controlador y el modelo necesarios
-require_once "../../controller/BookController.php";
+require_once __DIR__ . '../../../vendor/autoload.php';
 
-// Verificar si se proporcionó un ID de libro en la URL
-if(isset($_GET['id']) && !empty($_GET['id'])) {
-    $bookController = new Controller\BookController();
-    $book = $bookController->getBookById($_GET['id']);
-    if($book) {
-        // Aquí muestras la información del libro en tu página
-        echo "<h2>{$book['title']}</h2>";
-        echo "<p>Autor: {$book['author']}</p>";
-        // Continúa mostrando la información que necesites
-    } else {
-        echo "Libro no encontrado";
-    }
-} else {
-    echo "ID de libro no especificado en la URL";
-}
+use Controller\BookController;
+
+$con = new BookController;
+$bookId = $_GET['id']; // el ID por la URL
+
+$book = $con->getBookById($bookId);
 ?>
 
 
@@ -43,16 +33,12 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
         </nav>
     </header>
     <main>
-        <img id="img-book" src="" alt="portada del libro buscado">
-        <aside id="description">
-            <h2 id="titleBookInfo">TITULO</h2>
-            <p id="authorBookInfo"><strong>TAMY</strong></p>
-            <p id="genreBookInfo"><strong>CAROLINA</strong></p>
-            <p id="isbnBookInfo"><strong>GABY</strong></p>
-            <section>
-                <p id="descriptionBookInfo">HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
-            </section>
-        </aside>
+        <section>
+            <h1>Información del Libro</h1>
+            <p>Título: <?php echo $book['title']; ?></p>
+            <p>Autor: <?php echo $book['author']; ?></p>
+            <p>Reseña: <?php echo $book['reseña']; ?></p>
+        </section>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
