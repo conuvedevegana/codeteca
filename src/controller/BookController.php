@@ -11,16 +11,15 @@ class BookController{
         $this->model = new BookModel;
     }
 
-    //aqui pediremos que nos muestre la info de la base de datos
+    // Aquí pediremos que nos muestre la información de la base de datos
     public function getBooks()
     {
-       return ($this->model->getBooks()) ? $this->model->getBooks() : "No hay  books"; 
-        
+       return ($this->model->getBooks()) ? $this->model->getBooks() : "No hay libros"; 
     }
 
-
-
-
-
-
+    public function getBookById($id)
+    {
+        $book = $this->model->getBookById($id);
+        return ($book) ? $book : false;
+    }
 }

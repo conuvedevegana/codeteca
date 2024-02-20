@@ -1,3 +1,25 @@
+<?php
+// Incluir el controlador y el modelo necesarios
+require_once "../../controller/BookController.php";
+
+// Verificar si se proporcionó un ID de libro en la URL
+if(isset($_GET['id']) && !empty($_GET['id'])) {
+    $bookController = new Controller\BookController();
+    $book = $bookController->getBookById($_GET['id']);
+    if($book) {
+        // Aquí muestras la información del libro en tu página
+        echo "<h2>{$book['title']}</h2>";
+        echo "<p>Autor: {$book['author']}</p>";
+        // Continúa mostrando la información que necesites
+    } else {
+        echo "Libro no encontrado";
+    }
+} else {
+    echo "ID de libro no especificado en la URL";
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
