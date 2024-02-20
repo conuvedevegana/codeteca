@@ -15,7 +15,7 @@
         <nav class="headerBar">
             <a href="./admin_index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="logoutButton"><a  href="../../../index.php">Salir</a></button>
+            <button id="logoutButton"> <a href="../../../index.php">Salir</a></button>
         </nav>
     </header>
 
@@ -49,8 +49,8 @@
                 </textarea>
                 </section>
                 <section class="editingButtons">
-                    <button id=saveButton href="./admin_index.php">Guardar</button>
-                    <button id=cancelButton href="./admin_index.php">Cancelar</button>
+                    <button id=saveButton> <a href="./admin_index.php">Guardar</a></button>
+                    <button id=cancelButton> <a href="./admin_index.php">Cancelar</a></button>
                 </section>
         </div>
     </main>

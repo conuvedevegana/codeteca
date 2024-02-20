@@ -14,7 +14,7 @@
         <nav class="headerBar">
             <a href="../../../index.php"><img class="logo" src="../../../resources/img/Logo.png" alt="logo de Codeteca"></a>
             <input id="searchBar" type="text" name="searchBar" placeholder="Escribe el título o autora"></input>
-            <button id="addBookButton"><a  href="./admin_add.php">Añadir libro</a></button>
+            <button id="addBookButton"> <a href="./admin_add.php">Añadir libro</a></button>
             <button id="loginOutButton"><a href="../../../index.php">Salir</a></button>
         </nav>
     </header>
@@ -22,7 +22,7 @@
     <main>
         <section class="booksPhotos">
             <ul class=booksTop>
-                <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></li>
+                <li class="bookPhoto" href="./admin_search.php"><img src="../../../resources/img/100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></li>
                 <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/asesinato_en_el_orient.jpg" alt="Portada de Asesinato en el Orient Express"></li>
                 <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/cuando_dios_era_mujer.jpg" alt="Portada de Cuando Dios era mujer"></li>
                 <li class="bookPhoto"><a href="./admin_search.php"><img src="../../../resources/img/vozdevieja.jpg" alt="Portada de Vozdevieja"></li>
