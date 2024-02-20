@@ -52,13 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $db = new db();
     $connection = $db->connection();
 
-    
+
     $username = $_POST['username'];
 
     $sql = "SELECT * FROM users WHERE Role = 'Admin' AND Name = '$username'";
     $result = $connection->query($sql);
 
-    if ($result->rowCount() == 1) {
+    if ($result->rowCount() == 1) { 
     
         $_SESSION['loggedin'] = true;
         header("Location: admin_index.php");
