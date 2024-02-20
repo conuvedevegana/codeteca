@@ -23,6 +23,10 @@
     <main>
         <img id="img-book" src="" alt="portada del libro buscado">
         <aside id="description">
+            <h2 id="titleBookInfo"></h2>
+            <p id="authorBookInfo"><strong></strong></p>
+            <p id="genreBookInfo"><strong></strong></p>
+            <p id="isbnBookInfo"><strong></strong></p>
             <h2 id="titleBookInfo">Resultado de la busqueda</h2>
             <p id="authorBookInfo"><strong></strong></p>
             <p id="genreBookInfo"><strong></strong></p>
