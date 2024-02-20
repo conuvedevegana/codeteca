@@ -1,4 +1,42 @@
 <?php
+namespace Controller;
+
+use Model\BookModel;
+
+class BookController {
+    public function getBooks() {
+        $bookModel = new BookModel();
+        return $bookModel->getBooks();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // namespace Controller;
 // use Model\BookModel;
 
@@ -27,14 +65,4 @@
 
 
 
-namespace Controller;
-
-use Model\BookModel;
-
-class BookController {
-    public function getBooks() {
-        $bookModel = new BookModel();
-        return $bookModel->getBooks();
-    }
-}
 

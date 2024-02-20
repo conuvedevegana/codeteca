@@ -38,6 +38,7 @@ $books = $con->getBooks();
             <?php
                 foreach($books as $book) 
             ?>
+            
              <ul class="booksTop">
                 <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=12"><img src="resources\img\100_mujeres_que_cambiaron.jpg" alt="Portada de 100 Mujeres que cambiaron el mundo"></a></li>
                 <li class="bookPhoto"><a href="./src/view/pages/book_info.php?id=4"><img src="./resources/img/asesinato_en_el_orient.jpg" alt="Portada de Asesinato en el Orient Express"></a></li>

@@ -1,4 +1,41 @@
 <?php
+namespace Model;
+
+use PDO;
+
+class BookModel {
+    private $db;
+
+    public function __construct() {
+        $this->db = new PDO('mysql:host=localhost;dbname=biblioteca_codeteca', 'root', '');
+    }
+
+    public function getBooks() {
+        $query = $this->db->query("SELECT * FROM books");
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // namespace Model;
 // use PDO;
 // // use Config\Database;
@@ -34,19 +71,3 @@
 
 // }
 
-namespace Model;
-
-use PDO;
-
-class BookModel {
-    private $db;
-
-    public function __construct() {
-        $this->db = new PDO('mysql:host=localhost;dbname=biblioteca_codeteca', 'root', '');
-    }
-
-    public function getBooks() {
-        $query = $this->db->query("SELECT * FROM books");
-        return $query->fetchAll(PDO::FETCH_ASSOC);
-    }
-}
